@@ -1,6 +1,6 @@
 # budilnik
 
-Small VPS alarm for the Binance Futures **MSFTUSDT** mark price.
+Small VPS alarm for the Binance Futures **CRCLUSDT** mark price.
 
 Defaults:
 
@@ -24,7 +24,7 @@ MACRODROID_WEBHOOK=https://trigger.macrodroid.com/...
 Optional overrides:
 
 ```bash
-SYMBOL=MSFTUSDT
+SYMBOL=CRCLUSDT
 LOW_PRICE=76
 HIGH_PRICE=88
 ALARM_REPEAT_SECONDS=60
