@@ -6,7 +6,7 @@ import time
 import aiohttp
 import websockets
 
-SYMBOL = os.getenv("SYMBOL", "MSFTUSDT").upper()
+SYMBOL = os.getenv("SYMBOL", "CRCLUSDT").upper()
 LOW_PRICE = float(os.getenv("LOW_PRICE", "76"))
 HIGH_PRICE = float(os.getenv("HIGH_PRICE", "88"))
 ALARM_REPEAT_SECONDS = int(os.getenv("ALARM_REPEAT_SECONDS", "60"))
