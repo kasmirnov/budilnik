@@ -1,0 +1,16 @@
+[Unit]
+Description=MSFT Binance Futures MacroDroid Alarm
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=budilnik
+WorkingDirectory=/opt/budilnik
+EnvironmentFile=/etc/budilnik.env
+ExecStart=/opt/budilnik/.venv/bin/python /opt/budilnik/alarm.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
